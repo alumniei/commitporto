@@ -59,6 +59,14 @@
     {
       "image": "switch.png",
       "link": "https://switchpayments.com/"
+    },
+    {
+      "image": "kpmg.png",
+      "link": "https://home.kpmg"
+    },
+    {
+      "image": "outsystems.png",
+      "link": "https://www.outsystems.com/"
     }
   ]
 }
