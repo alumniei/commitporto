@@ -13,6 +13,9 @@
       <a href="https://www.facebook.com/commitporto" target="_blank">
         <img src="@/assets/social/facebook.svg" />
       </a>
+      <a href="https://www.instagram.com/commitportoconf" target="_blank">
+        <img src="@/assets/social/instagram.svg" />
+      </a>
       <a href="https://twitter.com/commitporto" target="_blank">
         <img src="@/assets/social/twitter.svg" />
       </a>

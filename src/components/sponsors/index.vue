@@ -28,6 +28,16 @@
         :imagePath="sponsor.image"
       />
     </div>
+    <Title title="Partners" subtitle="" />
+    <div class="sponsor partner">
+      <Sponsor
+        v-for="sponsor in partner"
+        v-bind="sponsor"
+        :key="sponsor.image"
+        :link="sponsor.link"
+        :imagePath="sponsor.image"
+      />
+    </div>
   </div>
 </template>
 
@@ -72,7 +82,8 @@ export default {
   }
 }
 
-.gold {
+.gold,
+.partner {
   & img {
     max-height: 130px;
     max-width: 200px;
@@ -94,4 +105,7 @@ export default {
   }
 }
 
+.partner {
+  justify-content: flex-start;
+}
 </style>

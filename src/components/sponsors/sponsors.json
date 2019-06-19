@@ -68,5 +68,15 @@
       "image": "outsystems.png",
       "link": "https://www.outsystems.com/"
     }
+  ],
+  "partner": [
+    {
+      "image": "dei.png",
+      "link": "https://dei.fe.up.pt"
+    },
+    {
+      "image": "uptec.png",
+      "link": "https://futurecomp.uptec.up.pt"
+    }
   ]
 }
