@@ -4,15 +4,15 @@
     <div class="speakers-container">
       <div class="border upper-border"/>
       <div class="slots-list">
-        <template v-for="slot in slots">
-          <div v-if="slot.type === 'filled'" class="frame filled" :key="slot">
-            <div class="content" v-for="description in slot.content" :key="description">
+        <template v-for="(slot, slotIdx) in slots">
+          <div v-if="slot.type === 'filled'" class="frame filled" :key="slotIdx">
+            <div class="content" v-for="description in slot.content" :key="description.text">
               <div class="text">{{description.text}}</div>
               <div class="time">{{description.time}}</div>
             </div>
           </div>
-          <div v-else-if="slot.type === 'icon'" class="frame icon" :key="slot">
-            <img class="break-icon" :src="breakIcon(slot.icon)" />
+          <div v-else-if="slot.type === 'icon'" class="frame icon" :key="slotIdx">
+            <img class="break-icon" :src="require(`@/assets/assets/`+ slot.icon)" />
             <div class="break-name">{{slot.text}}</div>
           </div>
           <Speaker
@@ -42,11 +42,7 @@ export default {
     Speaker,
   },
   data: () => ({ slots }),
-  methods: {
-    breakIcon(name) {
-      return `/static/assets/${name}`;
-    },
-  },
+  methods: {},
 };
 </script>
 

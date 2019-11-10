@@ -3,7 +3,7 @@
     :href="link"
     target="_blank"
   >
-    <img :src="imgLink(imagePath)" />
+    <img :src="require(`@/assets/sponsors/` + imagePath)" />
   </a>
 </template>
 
@@ -13,7 +13,7 @@ export default {
   props: ['link', 'imagePath'],
   methods: {
     imgLink(fileName) {
-      return `/static/sponsors/${fileName}`;
+      return `@/assets/sponsors/${fileName}`;
     },
   },
 };
