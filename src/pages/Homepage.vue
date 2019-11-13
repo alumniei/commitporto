@@ -6,11 +6,13 @@
       </div>
       <div class="logo-section">
         <img class="logo" src="@/assets/logobrancohor.png"/>
+        <!--
         <div class="time">JUNE 22, 2019</div>
         <a class="location" href="https://goo.gl/maps/Bcr3WfwoUasc1vg2A" target="_blank">
           <img src="@/assets/location.svg" />FEUP
         </a>
         <Button id="eventbrite-widget-modal-trigger-61719447529" text="Get your tickets now" />
+        -->
       </div>
     </div>
     <AboutUs />
@@ -26,8 +28,8 @@
       <img src="@/assets/gallery/gallery_4.jpg" />
       <img src="@/assets/gallery/gallery_10.jpg" />
     </div>
-    <Agenda :openSpeakerDetails="openSpeakerDetails" />
-    <Sponsors />
+    <!-- <Agenda :openSpeakerDetails="openSpeakerDetails" /> -->
+    <!-- <Sponsors /> -->
   </div>
 </template>
 
