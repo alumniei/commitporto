@@ -16,6 +16,10 @@
       </div>
     </div>
     <AboutUs />
+    <div class="buttons-call-for">
+      <h1> Work With Us </h1>
+      <Button text="Call For Sponsors" :onClick="openCallForSponsorsModal" />
+    </div>
     <div class="gallery">
       <img src="@/assets/gallery/gallery_1.jpg" />
       <img src="@/assets/gallery/gallery_2.jpg" />
@@ -36,6 +40,7 @@
 <script>
 import Button from '@/components/common/Button';
 import AboutUs from '@/components/AboutUs';
+import CallForSponsor from '@/components/CallForSponsor';
 import Agenda from '@/components/agenda/';
 import Sponsors from '@/components/sponsors/';
 
@@ -50,6 +55,9 @@ export default {
   methods: {
     openSpeakerDetails(component, properties) {
       this.$emit('modalVisible', component, properties);
+    },
+    openCallForSponsorsModal() {
+      this.$emit('modalVisible', CallForSponsor, {});
     },
   },
 };
@@ -137,11 +145,26 @@ export default {
   }
 }
 
+.buttons-call-for {
+  background-color: var(--light-grey);
+  padding: 10px  0 140px 0;
+
+  & h1 {
+    margin: 30px 50px;
+    display: block;
+  }
+
+  & Button {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   filter: grayscale(0.4);
-  margin: 140px auto 0;
+  margin: 0 auto 0;
 
   & img {
     max-width: 100%;
