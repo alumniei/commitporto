@@ -30,4 +30,4 @@ To build a static version of the previous edition:
 1. Change the path to the `Homepage`. In the file `src/router/index.js` change the `path` of the `Homepage` route from `/` to `/<YEAR>`
 1. Build a static version with `$ yarn run build`
 1. Copy the ALL generated content from the `dist` folder to the matching folder in the commitporto-previous repository `~/git/commitporto-previous/<YEAR>`
-1. Commit & push. Github pages should deployt it automatically :)
+1. Commit & push. Github pages should deploy it automatically :)
