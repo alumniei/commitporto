@@ -13,7 +13,7 @@
         participants.
       </small>
       <small>
-        If your company wants to be part of Commit Porto ’19, you can reach out to us via the form
+        If your company wants to be part of Commit Porto ’20, you can reach out to us via the form
         bellow. Find all we have to offer in our prospectus.
       </small>
       <form class="form" @submit.prevent="submitForm">
@@ -48,7 +48,7 @@ export default {
   }),
   methods: {
     submitForm() {
-      const url = 'https://hooks.slack.com/services/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';
+      const url = 'https://hooks.slack.com/services/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';
       const data = JSON.stringify({ text: `Chamo-me ${this.name} e quero patrocinar a commitporto:commitporto:! Enviem-me o prospectus para: ${this.email} (cc <!here>)` });
 
       this.$http.post(

@@ -18,7 +18,7 @@
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
       </div>
     </div>
-    <AboutUs />
+    <!--<AboutUs />
     <div class="gallery">
       <img src="@/assets/gallery/gallery_1.jpg" />
       <img src="@/assets/gallery/gallery_2.jpg" />
@@ -30,7 +30,7 @@
       <img src="@/assets/gallery/gallery_8.jpg" />
       <img src="@/assets/gallery/gallery_4.jpg" />
       <img src="@/assets/gallery/gallery_10.jpg" />
-    </div>
+    </div>-->
     <!-- <Agenda :openSpeakerDetails="openSpeakerDetails" /> -->
     <!-- <Sponsors /> -->
   </div>
@@ -94,7 +94,7 @@ export default {
 
 .logo-section {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -146,7 +146,7 @@ export default {
 
 .cta-section {
   position: absolute;
-  bottom: 0px;
+  bottom: 60px;
   width: 100%;
   transform: translateY(-500%);
   text-align: center;
