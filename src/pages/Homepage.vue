@@ -6,14 +6,19 @@
       </div>
       <div class="logo-section">
         <img class="logo" src="@/assets/logobrancohor.png"/>
-        <div class="time">JUNE 22, 2019</div>
-        <a class="location" href="https://goo.gl/maps/Bcr3WfwoUasc1vg2A" target="_blank">
+        
+        <div class="time">Coming Soon</div>
+        <!--<a class="location" href="https://goo.gl/maps/Bcr3WfwoUasc1vg2A" target="_blank">
           <img src="@/assets/location.svg" />FEUP
         </a>
         <Button id="eventbrite-widget-modal-trigger-61719447529" text="Get your tickets now" />
+        -->
       </div>
+     <!-- <div class="cta-section">
+        <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
+      </div>-->
     </div>
-    <AboutUs />
+    <!--<AboutUs />
     <div class="gallery">
       <img src="@/assets/gallery/gallery_1.jpg" />
       <img src="@/assets/gallery/gallery_2.jpg" />
@@ -25,15 +30,16 @@
       <img src="@/assets/gallery/gallery_8.jpg" />
       <img src="@/assets/gallery/gallery_4.jpg" />
       <img src="@/assets/gallery/gallery_10.jpg" />
-    </div>
-    <Agenda :openSpeakerDetails="openSpeakerDetails" />
-    <Sponsors />
+    </div>-->
+    <!-- <Agenda :openSpeakerDetails="openSpeakerDetails" /> -->
+    <!-- <Sponsors /> -->
   </div>
 </template>
 
 <script>
 import Button from '@/components/common/Button';
 import AboutUs from '@/components/AboutUs';
+import CallForSponsor from '@/components/CallForSponsor';
 import Agenda from '@/components/agenda/';
 import Sponsors from '@/components/sponsors/';
 
@@ -48,6 +54,9 @@ export default {
   methods: {
     openSpeakerDetails(component, properties) {
       this.$emit('modalVisible', component, properties);
+    },
+    openCallForSponsorsModal() {
+      this.$emit('modalVisible', CallForSponsor, {});
     },
   },
 };
@@ -85,7 +94,7 @@ export default {
 
 .logo-section {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -132,6 +141,17 @@ export default {
       width: 20px;
       margin-right: var(--x-small-space);
     }
+  }
+}
+
+.cta-section {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  transform: translateY(-500%);
+  text-align: center;
+  & > button:not(:last-child) {
+    margin-right: 5%;
   }
 }
 

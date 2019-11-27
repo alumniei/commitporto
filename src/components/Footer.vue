@@ -1,6 +1,7 @@
 <template>
   <footer>
     <div class="editions">
+      <a href="http://2019.commitporto.com" target="_blank">2019</a>.
       <a href="http://2018.commitporto.com" target="_blank">2018</a>.
       <a href="http://2017.commitporto.com" target="_blank">2017</a>.
       <a href="http://2016.commitporto.com" target="_blank">2016</a>.
@@ -39,8 +40,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -70px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: var(--small-space);
-  background: var(--main-color);
+  //background: var(--main-color);
   position: relative;
 
   @media (--bellow-desktop) {
@@ -92,6 +96,7 @@ footer {
   &, & a {
     color: var(--white);
     font-size: var(--text-font);
+	text-decoration: none;
   }
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="speaker" :class="{placeholder: !name}" @click="openSpeakerModal">
-    <img class="photo" :src="fullfileName"/>
+    <img class="photo" :src="require(`@/assets/speakers/` + fullfileName)"/>
     <div class="time">{{time}}</div>
     <div class="name" @click="openSpeakerModal">{{name}}</div>
     <div class="role">{{role}}</div>
@@ -48,7 +48,7 @@ export default {
   ],
   computed: {
     fullfileName() {
-      return `/static/speakers/${this.file}`;
+      return this.file;
     },
     twitterLink() {
       return `https://twitter.com/${this.twitter}`;

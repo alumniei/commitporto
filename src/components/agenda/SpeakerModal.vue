@@ -2,7 +2,7 @@
   <div>
     <div class="bio-section">
       <div class="bio-photo">
-        <img :src="fullfileName"/>
+        <img :src="require(`@/assets/speakers/` + fullfileName)"/>
       </div>
       <div class="bio-details">
         <Title :title="name" :subtitle="role" />
