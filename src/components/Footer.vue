@@ -96,7 +96,7 @@ footer {
   &, & a {
     color: var(--white);
     font-size: var(--text-font);
-	text-decoration: none;
+    text-decoration: none;
   }
 }
 
