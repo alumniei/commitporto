@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="editions">
-      <a href="http://2019.commitporto.com" target="_blank">2019</a>.
+      <a href="http://previous.commitporto.com/2019" target="_blank">2019</a>.
       <a href="http://2018.commitporto.com" target="_blank">2018</a>.
       <a href="http://2017.commitporto.com" target="_blank">2017</a>.
       <a href="http://2016.commitporto.com" target="_blank">2016</a>.
