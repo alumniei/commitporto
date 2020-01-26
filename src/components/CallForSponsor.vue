@@ -16,14 +16,9 @@
         If your company wants to be part of Commit Porto ’20, you can reach out to us via the form
         bellow. Find all we have to offer in our prospectus.
       </small>
-      <form class="form" @submit.prevent="submitForm">
-        <input v-model="name" placeholder="tell us your name" required>
-        <input
-          v-model="email"
-          placeholder="email address where we can reach you"
-          type="email"
-          required
-        >
+      <form class="form" action="https://formspree.io/mrgpnyeg" method="POST">
+        <input type="text" name="name" placeholder="tell us your name" required>
+        <input type="email" name="_replyto" placeholder="email address where we can reach you">
         <Button text="Send" isSecondary={true} type="submit" />
       </form>
     </div>
@@ -46,22 +41,6 @@ export default {
     email: '',
     submitted: false,
   }),
-  methods: {
-    submitForm() {
-      const url = 'https://hooks.slack.com/services/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';
-      const data = JSON.stringify({ text: `Chamo-me ${this.name} e quero patrocinar a commitporto:commitporto:! Enviem-me o prospectus para: ${this.email} (cc <!here>)` });
-
-      this.$http.post(
-        url,
-        data,
-        { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } },
-      ).then(() => {
-        this.submitted = true;
-        this.name = '';
-        this.email = '';
-      });
-    },
-  },
   components: {
     Button,
   },
