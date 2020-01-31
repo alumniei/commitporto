@@ -6,7 +6,7 @@
       </div>
       <div class="logo-section">
         <img class="logo" src="@/assets/logobrancohor.png"/>
-        <div class="time">Coming Soon</div>
+        <div class="time">6th June 2020</div>
         <!--<a class="location" href="https://goo.gl/maps/Bcr3WfwoUasc1vg2A" target="_blank">
           <img src="@/assets/location.svg" />FEUP
         </a>
