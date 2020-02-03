@@ -44,13 +44,11 @@
 
     <br />
     <h3 class="submit-proposal">
-      <strong>Proposals submission will open soon. Stay tuned!</strong>
-      <!--
+      <!-- <strong>Proposals submission will open soon. Stay tuned!</strong> -->
       <strong>Please submit your proposals
-         <a href="https://alumniei.typeform.com/to/dYYSD1" target="_blank">HERE</a>
-         until March 31st, 2019.
+         <a href="https://alumniei.typeform.com/to/J2AIGe" target="_blank">HERE</a>
+         until March 15st, 2020.
       </strong>
-      -->
     </h3>
     <small>Please note:
       <strong> There is no guarantee that a submission will be put onto the conference agenda as the
