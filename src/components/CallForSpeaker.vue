@@ -47,7 +47,7 @@
       <!-- <strong>Proposals submission will open soon. Stay tuned!</strong> -->
       <strong>Please submit your proposals
          <a href="https://alumniei.typeform.com/to/J2AIGe" target="_blank">HERE</a>
-         until March 15st, 2020.
+         until March 15th, 2020.
       </strong>
     </h3>
     <small>Please note:
