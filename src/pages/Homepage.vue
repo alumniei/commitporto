@@ -75,10 +75,6 @@ export default {
   color: var(--white);
   box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-
-  @media (--mobile) {
-    height: 85vh;
-  }
 }
 
 .bckg-img {

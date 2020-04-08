@@ -51,6 +51,7 @@ footer {
     margin: 0;
     text-align: center;
     flex-direction: column-reverse;
+    background: var(--main-color);
   }
 }
 
