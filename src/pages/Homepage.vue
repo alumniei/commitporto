@@ -15,7 +15,7 @@
       </div>
       <div class="cta-section">
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
-        <Button text="Call for speakers" :onClick="openCallForSpeakersModal" />
+        <!--<Button text="Call for speakers" :onClick="openCallForSpeakersModal" />-->
       </div>
     </div>
     <!--<AboutUs />
@@ -40,7 +40,7 @@
 import Button from '@/components/common/Button';
 import AboutUs from '@/components/AboutUs';
 import CallForSponsor from '@/components/CallForSponsor';
-import CallForSpeaker from '@/components/CallForSpeaker';
+/* import CallForSpeaker from '@/components/CallForSpeaker'; */
 import Agenda from '@/components/agenda/';
 import Sponsors from '@/components/sponsors/';
 
@@ -59,9 +59,9 @@ export default {
     openCallForSponsorsModal() {
       this.$emit('modalVisible', CallForSponsor, {});
     },
-    openCallForSpeakersModal() {
+    /* openCallForSpeakersModal() {
       this.$emit('modalVisible', CallForSpeaker, {});
-    },
+    }, */
   },
 };
 </script>
