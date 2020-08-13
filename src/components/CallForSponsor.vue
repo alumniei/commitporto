@@ -4,7 +4,7 @@
     <div v-if="!submitted">
       <small>
         Commit Porto is a tech conference that brings together professionals who tackle challenges
-        in software development with the latest technologies. Now in its fifth edition the
+        in software development with the latest technologies. Now in its sixth edition the
         conference is only possible due to the generous support of our sponsors.
       </small>
       <small>

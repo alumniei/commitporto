@@ -6,13 +6,14 @@
       </div>
       <div class="logo-section">
         <img class="logo" src="@/assets/logobrancohor.png"/>
-        <div class="time">10th October 2020</div>
         <!--<a class="location" href="https://goo.gl/maps/Bcr3WfwoUasc1vg2A" target="_blank">
           <img src="@/assets/location.svg" />FEUP
         </a>
         <Button id="eventbrite-widget-modal-trigger-61719447529" text="Get your tickets now" />
         -->
+        <div class="time">> October 10 </div>
       </div>
+
       <div class="cta-section">
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
         <!--<Button text="Call for speakers" :onClick="openCallForSpeakersModal" />-->
