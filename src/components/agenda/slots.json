@@ -4,163 +4,29 @@
       "type": "filled",
       "content": [
         {
-          "text": "Check-in",
-          "time": "9:00"
-        },
-        {
           "text": "Opening Session",
-          "time": "9:50"
+          "time": "10:00"
         }
       ]
     },
     {
-      "file": "roland.jpg",
-      "name": "Roland Kuhn",
-      "role": "CTO & co-founder @ Actyx",
-      "twitter": "rolandkuhn",
-      "github": "rkuhn",
-      "linkedin": "roland-kuhn-17828a57",
-      "website": "https://rolandkuhn.com/",
-      "bio": "I am CTO and co-founder of Actyx, author of Reactive Design Patterns, a co-author of the Reactive Manifesto, teacher of the edX course Programming Reactive Systems, and a passionate open-source hakker. Previously I led the Akka project at Lightbend. I also hold a Dr. rer. nat. in particle physics from TU München and have worked in the space industry for several years. I spend most of my life in the central European timezone.",
-      "title": "What if you need reliability comparable to paper?",
-      "abstract": "<p>In the manufacturing industry downtime is very expensive, therefore most small and midsize factories are still managed using paper-based processes. The problem space is perfectly suited for the microservices approach: well-defined and locally encapsulated responsibilities, collaboration and loose coupling between different links in the chain, rapid evolution of individual pieces for the purpose of optimising business outcomes. But how can we operate microservices such that they can deliver the resilience of paper? How can we leverage the locality of process data and benefit from high bandwidth and low latency communication in the Internet of Things?</p><p>This talk explores the radical approach of operating microservices in a peer-to-peer network on the factory shop-floor, using event sourcing as the only means of communication and observation. We discuss the consequences of going all in on availability and partition tolerance. In particular consider eventual consistency and its impact on replacing nodes, upgrading services, and evolving event schemas. And we see how event sourcing can help understand the behaviour of such an uncompromisingly distributed system and enable powerful testing—both before and after hitting an issue in production.</p>",
-      "time": "10:00"
-    },
-    {
-      "file": "jose.png",
-      "name": "José Silva",
-      "role": "Head of Development @ Dott",
-      "bio": "Although I have experience in several business areas, my main focus in these last years is e-commerce. I am currently managing the development team at Dott - a new marketplace that just went live in Portugal. I enjoy discussing technical topics with my team and help them building our infrastructure and architecture. We work essentially with Go and Scala and our daily goal is to build resilient systems that live up to the standards of the Reactive Manifesto.",
-      "github": "jcunhasilva",
-      "linkedin": "joseantoniosilva",
-      "title": "A Reactive Approach to Distributed Transactions",
-      "abstract": "<p>What happens to your data when you adopt Microservices? Are ACID transactions still a possibility even with distributed services? How do we ensure data consistency amongst databases and systems? I’m sure that some of these questions pop up on your mind when you think about Microservice architectures.</p><p>In this talk I will show how this problem affects e-commerce projects and how we at Dott came up with a solution by following Reactive Programming concepts.</p>",
-      "time": "10:40"
-    },
-    {
-      "type": "icon",
-      "text": "Let's Connect – with Bosch",
-      "icon": "coffeebreak.svg"
-    },
-    {
-      "file": "erik.jpg",
-      "name": "Erik Muttersbach",
-      "role": "Co-Founder & CTO @ FreightHub",
-      "bio": "Erik is a serial entrepreneur and CTO with more than 10 years of experience in building software. In the past years, he co-founded tech companies with a diverse focus, ranging from big data platforms over beacon technology for museums to e-commerce systems. Having built three companies from scratch and consulted various tech companies and Venture Capitalists, Erik knows the ins and outs of the startup ecosystem. Erik has graduated from Technical University of Munich with a Master in Computer science and holds an Honours Degree in Technology Management.",
-      "linkedin": "erikmuttersbach",
-      "github": "erikmuttersbach",
-      "title": "Event Sourcing in practice: Enabling global, real-time shipment tracking at FreightHub",
-      "abstract": "<p>FreightHub is a digital freight forwarder who aims at re-defining global transport of goods through technology: Part of our journey is to enable real-time tracking of cargo for our customers. In an industry, which dates back to the bronze age, this is not an easy challenge. Our answer: Event Sourcing.</p><p>In this talk, we'll explore how we use event sourcing in practice, what we have learned, and how we ultimately use it for enabling real-time tracking around the world.</p>",
-      "time": "11:40"
-    },
-    {
-      "file": "filipa.jpg",
-      "name": "Filipa Moura",
-      "role": "Software Engineer @ Twitter",
-      "bio": "Filipa is the tech lead of the Health ML Infrastructure team at Twitter, focusing on keeping the platform safe. Previous roles included leading the backend design for the live video experience, among others. Prior to Twitter, she was involved in designing low latency ad reporting at Yahoo as well as backend systems at UBS.",
-      "twitter": "filipam",
-      "linkedin": "filipamoura",
-      "title": "Keeping your notifications safe",
-      "abstract": "<p>People should feel safe on Twitter and building a Twitter free of abuse, spam and other nuisances that distract from the public conversation is top priority. User notifications offer a way to see how others on Twitter are interacting with you and in order to make sure your Twitter experience doesn't get tainted with negative interactions we have to keep your notifications safe.</p><p>This talk will go through the new service designed to run Machine Learning (ML) models to keep Twitter safe. It'll also highlight the ups and downs of the migration of the ML model that was designed to filter your notifications.</p>",
-      "time": "12:10"
-    },
-    {
-      "file": "fernando.jpg",
-      "time": "12:40",
-      "name": "Fernando Silva",
-      "role": "Lead Data Scientist @ Novo Banco",
-      "bio": "Versatile professional with 10 years of experience in various incarnations of data, artificial intelligence, and engineering. Currently leading a talented team of data scientists at Novo Banco Digital. Has held multiple positions in industry (Vodafone Portugal, Cofco International, Talkdesk) and in academia. Proficient communicator: regularly delivers presentations to stakeholders, has authored and co-authored 30+ scientific publications, and has over three and a half years of university lecturing experience. Holds a PhD in machine learning and robotics. Adept of disruptive innovation.",
-      "github": "fgsilva",
-      "linkedin": "fernandogousilva",
-      "title": "Embracing explainable artificial intelligence in industry",
-      "abstract": "<p>Artificial intelligence (AI) techniques have become widespread across multiple sectors in industry. However, as intelligent systems are increasingly trusted with decisions that may have financial, safety, security, or personal ramifications to an individual, the need for deep understanding of the decision-making rationale of such systems also increases. To achieve complete transparency, detailed \"explanations\" are necessary.</p><p>In this talk, I will provide an overview of existing perspectives on explainable artificial intelligence systems, discuss on-going efforts in industry for opening the AI black box, and describe how we are currently tackling this topic at Novo Banco.</p>"
-    },
-    {
-      "type": "icon",
-      "text": "Lunch Break",
-      "icon": "lunch.svg"
-    },
-    {
-      "file": "jean.jpg",
-      "name": "Jean-Baptiste Kempf",
-      "role": "President & VLC Lead Dev. @ VideoLAN",
-      "bio": "Jean-Baptiste Kempf is the president of the VideoLAN non-profit organization and one of the lead developers of the open source VLC media player. Jean-Baptiste is a 36-year old French engineer and has been part of the VideoLAN community since 2005. Since then, he has worked on or lead most VideoLAN related projects, including VLC for desktop, the relicensing of libVLC, the ports to mobile operating systems, and various multimedia libraries like libdvdcss or libbluray. He also created the legal entity of VideoLAN, a French non-profit organization, in 2008. Jean-Baptiste has also been working in various video-related startups, and founded VideoLabs, a company focusing on open source multimedia technologies.",
-      "linkedin": "jbkempf",
-      "title": "VLC story and development practices",
-      "time": "14:00"
-    },
-    {
-      "file": "ricardo.jpg",
-      "name": "Ricardo Mendes",
-      "role": "Software Developer @ Simplabs",
-      "bio":"Ricardo is a long time open sourcerer and member of the Ember.js learning and framework core teams. Ricardo currently works at Simplabs, and hosts the Porto Codes meetup and the Conversas em Código podcast.",
-      "title": "Thriving through the hype cycle: an Ember.js story",
-      "abstract": "<p>The front-end development community has been through a fair share of hype cycles in the last ten years. In this time, we have seen libraries and frameworks come and go, sometimes even disappearing completely like batman.js.</p><p>In this talk we will cover how the Ember.js project has managed not only to keep up with the hype cycles, but to continually push the framework and the web forward and bring its users along.</p><p>We will close off the presentation by talking how this culminates in the concept of editions, the first of which is Ember Octane.</p>",
-      "linkedin": "rmendes",
-      "time": "14:30"
-    },
-    {
-      "type": "icon",
-      "text": "Break",
-      "icon": "break.svg"
-    },
-    {
-      "file": "rodrigo.png",
-      "name": "Rodrigo Solís",
-      "role":"Front End Engineer @ Vizzuality",
-      "title": "\"Always split your Aces and 8s\": how to serve better front-end builds to all browsers",
-      "bio": "My name is Rodrigo, I'm originally from Mexico city. I've been living in Madrid, Spain for the past 8 years; where I studied Software Engineering. I work at Vizzuality as a Front Engineer, on my day to day I build cool visualisations using React and Redux. I like to get involved and contribute to open source projects, among the things I enjoy the most are building tools and designing libraries public APIs. On a more personal note, I like beer, tacos and going out dancing.",
-      "github": "sorodrigo",
-      "twitter": "sorodrigo",
-      "abstract": "Modern web apps use JS features that not all browsers can understand. To be able to do this, developers transpile their code into an older version of javascript that browsers can understand. However, modern browsers are catching up with the language and most of them can understand the latest features of JS.</p><p>I want to talk about a way we can make different builds for different browsers. This way we're able to send less code to modern browsers and let them use their native implementation which is faster. This strategy allows us to send the transpiled code to the old browsers without penalizing modern ones.</p><p>Relevance? I think this is useful to all web developer that work in a large enough app and have the need to support old browsers.</p><p>Objective? Introduce the idea of multiple builds to the audience, and let them know how hard (or easy) it is to implement. Share common gotchas and best practices.</p><p>Approach? I was thinking on using a metaphor throughout the talk, where I talk about browsers as if they were sled dogs. In this metaphor I explain how fast sled dogs have to carry the burden of the regular and the slow ones. Then pose a different strategy where we group fast dogs in a separate sled to the regular ones, and the slow ones. This will allow us to treat each type of dog differently and also give them special care. No dog should feel bad just because they're slower / older.</p><p>Structure? Start posing the issue with a similar intro to this abstract. Continue showing some cute dog pics while I talk about this metaphor. And finish with a code example.</p>",
-      "time": "15:30"
-    },
-    {
-      "file": "carlos.jpg",
-      "name": "Carlos Mota",
-      "role" :"Lead Software Engineer @ WIT Software",
-      "bio":"Android team lead at WIT Software, he can easily be spotted there working on the company RCS solution. An enthusiastic for new technology and always trying to reach those last 20% of all of his side projects that seem to be really far away, he loves to share his knowledge with others either by giving talks, teaching, writing or along with a cold beer in the nearest pub. GDG Coimbra organizer and Kotlin evangelist, he also has a huge passion for travel, photography, space and the occasional run.",
-      "twitter": "cafonsomota",
-      "website": "https://medium.com/@cafonsomota",
-      "github": "cmota",
-      "linkedin": "cafonsomota",
-      "title": "The Hitchhikers Guide Through Kotlin Multiplatform",
-      "abstract": "<p>Since the early days of mobile that we keep seeing new frameworks being designed to overcome one of the biggest challenges: How can I develop for both Android and iOS?</p><p>Although it’s initial promises, when we talk about performance, maintainability or even customization we keep discarding these solutions and we always choose native.</p><p>Fast forward to the present, and now we have two new languages: Android is Kotlin first and iOS, Swift. And if you put them side by side you can see a lot of similarities between both what will ease switching between one to the other if you have to develop for both platforms.</p><p>But what I told that you could just develop in Kotlin and run it seamlessly on all devices? Here comes Kotlin Multiplatform!</p>",
-      "time": "16:00"
-    },
-    {
-      "type": "icon",
-      "text": "Coffee Break",
-      "icon": "coffeebreak.svg"
-    },
-    {
-      "file": "andrew.jpg",
-      "name": "Andrew Hill",
-      "role": "Co-founder & CEO @ textile01",
-      "twitter": "andrewxhill",
-      "github": "andrewxhill",
-      "website": "https://andrewxhill.com/",
-      "bio": "Andrew Hill has been a biologist, a mapper, a technologist, and an entrepreneur. Now, he is helping to build Textile, a company that explores technology for decentralized consumer applications. He spends his days trying to further their mission to radically change the way people use their data to interact with technology.",
-      "title": "Unleashing the power of decentralization: How to build unstoppable apps using IPFS",
-      "abstract": "From before you even wake up in the morning, your day is being encoded into digital data. What started as simply our IP address, nic, or maybe email address has now grown to include our dating profiles, medical histories, mundane conversations, personality traits not even we are aware of, and much more. While our trails of digital data have become more detailed, the technologies that leverage that data have become more opaque and less in our control.</p><p>Decentralization, content addressable data, and technologies like IPFS give us a new framework to think about how data should be stored, controlled, and used in technology. In this talk, we will present how IPFS can be used to build technologies that give users long-term control of their personal data while still enabling amazing and useful technology to be built around it.</p><p>You should expect to hear: how protocols in IPFS can be used in consumer apps; what new values and interactions are possible when using decentralized systems in apps; examples of some simple ways to add IPFS to your projects; a long term vision for how data could in the future of technology.</p>",
-      "time": "17:00"
-    },
-    {
-      "file": "miguel.jpeg",
-      "name": "Miguel Viana",
-      "role": "Information Security Specialist @ Talkdesk",
-      "bio": "My passion for security and technology started when I was a kid and got my old IBM PS/2 PC infected with the famous virus \"Barrotes\". Throughout my career, in the last 18 years, from Sysadmin to Security Analyst and now as a Information Security Specialist, I was always driven by the continual process of making systems and people more safe and secure in a era where privacy doesn’t exist and we are all exposed to numerous threats.",
-      "linkedin": "miguel-viana-648163178",
-      "title": "From Social Engineering to Exploitation",
-      "abstract": "<p>As more and more technical attacks on systems have increased, so have numerous technology based countermeasures being used successfully to thwart them. But, a company may have purchased the best security technologies out there, trained their people to follow the best-security practices recommended by experts, and hired building guards form the best security firm in the business, that company is still totally vulnerable.</p><p>Why is that? In a single word - \"humans\". In all the fortresses of defense we build around systems, the human element is always the weakest link. Hackers - both good or bad - employ a specific set of tricks targeting people through the use of social engineering methods, often gaining unnoticed access to computer systems and sensitive data. In an era of laws and legislations protect individual's privacy, it is imperative for everyone to prepare, defend and react to these attacks.</p><p>In this talk, I will demonstrate how social engineering is used to perform an attack and what can we do to detect and prevent it.</p>",
-      "time": "17:30"
+      "file": "kristina.jpg",
+      "name": "Kirstina Simakova",
+      "role": "Independent Consultant",
+      "bio": "Kristina is an independent IT consultant based in Norway. She is a Google Developer Expert for Android & Maps and has a keen interest in AR, ML and computer graphics. By day, she writes Android native code in Kotlin and by night, she blogs at creativetech.blog about AR.",
+      "github": "Kristina-Simakova",
+      "linkedin": "ksimakova",
+      "twitter": "KristiSimakova",
+      "title": "Mobile AR: overview and best practices",
+      "abstract": "<p>The main goal of AR is to blur the lines between virtual and real. In the past few years, we have seen a lot of improvements in mobile AR and in particular ARCore SDK. This talk will guide you through the state of the technology for mobile AR, common mistakes and main challenges any developer will meet when working with AR on Android.</p>",
+      "time": "TBA"
     },
     {
       "type": "filled",
       "content": [
         {
           "text": "Closing Session",
-          "time": "18:00"
+          "time": "16:00"
         }
       ]
     }

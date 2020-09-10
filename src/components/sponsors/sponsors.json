@@ -1,82 +1,20 @@
 {
-  "diamond": [
+  "premium": [
     {
-      "image": "blip.png",
-      "link": "https://blip.pt/"
-    },
-    {
-      "image": "hostelworld.png",
-      "link": "https://www.hostelworld.com/"
-    },
-    {
-      "image": "xing.png",
-      "link": "https://www.xing.com/"
+      "image": "bit.png",
+      "link": "https://www.sonae.pt/pt/"
     }
   ],
-  "gold": [
+  "basic": [
     {
-      "image": "aubay.png",
-      "link": "http://www.aubay.pt/"
-    },
-    {
-      "image": "jumia.png",
-      "link": "https://group.jumia.com/"
-    },
-    {
-      "image": "retail.png",
-      "link": "http://www.retail-consult.com/"
-    },
-    {
-      "image": "critical_manufacturing.png",
-      "link": "http://www.criticalmanufacturing.com/"
-    }
-  ],
-  "silver": [
-    {
-      "image": "bosch.png",
-      "link": "http://www.bosch.pt/"
-    },
-    {
-      "image": "fractal.png",
-      "link": "https://www.trustfractal.com/"
-    },
-    {
-      "image": "talkdesk.png",
-      "link": "https://www.talkdesk.com/"
-    },
-    {
-      "image": "losch.png",
-      "link": "https://www.losch.lu"
-    },
-    {
-      "image": "natixis.png",
-      "link": "https://www.natixis.com"
-    },
-    {
-      "image": "velocidi.png",
-      "link": "https://www.velocidi.com"
-    },
-    {
-      "image": "switch.png",
-      "link": "https://switchpayments.com/"
-    },
-    {
-      "image": "kpmg.png",
-      "link": "https://home.kpmg"
-    },
-    {
-      "image": "outsystems.png",
-      "link": "https://www.outsystems.com/"
+      "image": "losch.svg",
+      "link": "https://losch.lu/fr/accueil"
     }
   ],
   "partner": [
     {
       "image": "dei.png",
       "link": "https://dei.fe.up.pt"
-    },
-    {
-      "image": "uptec.png",
-      "link": "https://futurecomp.uptec.up.pt"
     }
   ]
 }

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <Navbar :scrolled="scrolled" /> -->
+    <Navbar :scrolled="scrolled" />
     <router-view @modalVisible="showModal" />
     <Footer />
     <Modal v-show="isModalVisible" @close="closeModal">

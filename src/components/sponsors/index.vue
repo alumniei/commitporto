@@ -3,7 +3,7 @@
     <Title title="Sponsors" subtitle="Thanks to our" />
     <div class="sponsor diamond">
       <Sponsor
-        v-for="sponsor in diamond"
+        v-for="sponsor in premium"
         v-bind="sponsor"
         :key="sponsor.image"
         :link="sponsor.link"
@@ -12,16 +12,7 @@
     </div>
     <div class="sponsor gold">
       <Sponsor
-        v-for="sponsor in gold"
-        v-bind="sponsor"
-        :key="sponsor.image"
-        :link="sponsor.link"
-        :imagePath="sponsor.image"
-      />
-    </div>
-    <div class="sponsor silver">
-      <Sponsor
-        v-for="sponsor in silver"
+        v-for="sponsor in basic"
         v-bind="sponsor"
         :key="sponsor.image"
         :link="sponsor.link"

@@ -2,7 +2,7 @@
   <div id="about" class="section">
     <div class="about-img">
       <div class="border upper-border"/>
-      <img src="@/assets/aboutus.png"/>
+      <img style="width:200px" src="@/assets/aboutus.jpg"/>
       <div class="border bottom-border"/>
     </div>
     <div>

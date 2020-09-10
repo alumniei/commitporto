@@ -3,11 +3,11 @@
     <router-link to="#about">About</router-link>
     <router-link to="#agenda">Agenda</router-link>
     <router-link to="#sponsors">Sponsors</router-link>
-    <Button
+    <!-- <Button
       id="eventbrite-widget-modal-trigger-61719447529"
       text="Get tickets"
       isSecondary={true}
-    />
+    /> -->
   </nav>
 </template>
 

@@ -12,28 +12,31 @@
         <Button id="eventbrite-widget-modal-trigger-61719447529" text="Get your tickets now" />
         -->
         <div class="time">> October 10 </div>
+        <br>
+        <br>
+        <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
       </div>
 
-      <div class="cta-section">
+      <!-- <div class="cta-section">
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
-        <!--<Button text="Call for speakers" :onClick="openCallForSpeakersModal" />-->
-      </div>
+         <Button text="Call for speakers" :onClick="openCallForSpeakersModal" />
+      </div> -->
     </div>
-    <!--<AboutUs />
+    <AboutUs />
     <div class="gallery">
-      <img src="@/assets/gallery/gallery_1.jpg" />
-      <img src="@/assets/gallery/gallery_2.jpg" />
-      <img src="@/assets/gallery/gallery_3.jpg" />
-      <img src="@/assets/gallery/gallery_6.jpg" />
-      <img src="@/assets/gallery/gallery_9.jpg" />
-      <img src="@/assets/gallery/gallery_7.jpg" />
-      <img src="@/assets/gallery/gallery_11.jpg" />
-      <img src="@/assets/gallery/gallery_8.jpg" />
-      <img src="@/assets/gallery/gallery_4.jpg" />
-      <img src="@/assets/gallery/gallery_10.jpg" />
-    </div>-->
-    <!-- <Agenda :openSpeakerDetails="openSpeakerDetails" /> -->
-    <!-- <Sponsors /> -->
+      <img src="@/assets/gallery/gallery_12.jpg" />
+      <img src="@/assets/gallery/gallery_13.jpg" />
+      <img src="@/assets/gallery/gallery_14.jpg" />
+      <img src="@/assets/gallery/gallery_15.jpg" />
+      <img src="@/assets/gallery/gallery_16.jpg" />
+      <img src="@/assets/gallery/gallery_17.jpg" />
+      <img src="@/assets/gallery/gallery_18.jpg" />
+      <img src="@/assets/gallery/gallery_19.jpg" />
+      <img src="@/assets/gallery/gallery_20.jpg" />
+      <img src="@/assets/gallery/gallery_21.jpg" />
+    </div>
+    <Agenda :openSpeakerDetails="openSpeakerDetails" />
+    <Sponsors />
   </div>
 </template>
 

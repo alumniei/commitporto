@@ -40,11 +40,10 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -70px;
-  margin-left: 100px;
-  margin-right: 100px;
   padding: var(--small-space);
-  //background: var(--main-color);
+  padding-left: 100px;
+  padding-right: 100px;
+  background: var(--main-color);
   position: relative;
 
   @media (--bellow-desktop) {
