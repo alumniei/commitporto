@@ -11,13 +11,13 @@
       <a href="http://alumniei.pt/" target="_blank">AlumniEI-FEUP</a>
     </div>
     <div class="socials">
-      <a href="https://www.facebook.com/commitporto" target="_blank">
+      <a href="https://www.facebook.com/commitportoconf" target="_blank">
         <img src="@/assets/social/facebook.svg" />
       </a>
       <a href="https://www.instagram.com/commitportoconf" target="_blank">
         <img src="@/assets/social/instagram.svg" />
       </a>
-      <a href="https://twitter.com/commitporto" target="_blank">
+      <a href="https://twitter.com/commitportoconf" target="_blank">
         <img src="@/assets/social/twitter.svg" />
       </a>
       <a href="https://www.youtube.com/channel/UCuYn5xuAmChRDcSdQrbp-Fw/videos" target="_blank">
