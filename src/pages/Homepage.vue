@@ -5,7 +5,7 @@
         <div class="bckg-img" />
       </div>
       <div class="logo-section">
-        <img class="logo" src="@/assets/logobranco.png"/>
+        <img class="logo" src="@/assets/logobranco.webp"/>
         <!--<a class="location" href="https://goo.gl/maps/Bcr3WfwoUasc1vg2A" target="_blank">
           <img src="@/assets/location.svg" />FEUP
         </a>
@@ -24,16 +24,16 @@
     </div>
     <AboutUs />
     <div class="gallery">
-      <img src="@/assets/gallery/gallery_12.jpg" />
-      <img src="@/assets/gallery/gallery_13.jpg" />
-      <img src="@/assets/gallery/gallery_14.jpg" />
-      <img src="@/assets/gallery/gallery_15.jpg" />
-      <img src="@/assets/gallery/gallery_16.jpg" />
-      <img src="@/assets/gallery/gallery_17.jpg" />
-      <img src="@/assets/gallery/gallery_18.jpg" />
-      <img src="@/assets/gallery/gallery_19.jpg" />
-      <img src="@/assets/gallery/gallery_20.jpg" />
-      <img src="@/assets/gallery/gallery_21.jpg" />
+      <img src="@/assets/gallery/gallery_12.webp" />
+      <img src="@/assets/gallery/gallery_13.webp" />
+      <img src="@/assets/gallery/gallery_14.webp" />
+      <img src="@/assets/gallery/gallery_15.webp" />
+      <img src="@/assets/gallery/gallery_16.webp" />
+      <img src="@/assets/gallery/gallery_17.webp" />
+      <img src="@/assets/gallery/gallery_18.webp" />
+      <img src="@/assets/gallery/gallery_19.webp" />
+      <img src="@/assets/gallery/gallery_20.webp" />
+      <img src="@/assets/gallery/gallery_21.webp" />
     </div>
     <Agenda :openSpeakerDetails="openSpeakerDetails" />
     <Sponsors />
@@ -82,7 +82,7 @@ export default {
 }
 
 .bckg-img {
-  background: var(--text-color) url('../assets/bckg.jpg') no-repeat center center / cover;
+  background: var(--text-color) url('../assets/bckg.webp') no-repeat center center / cover;
   width: 100%;
   height: 100vh;
   filter: var(--red-filter);

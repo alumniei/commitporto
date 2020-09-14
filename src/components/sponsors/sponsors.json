@@ -1,7 +1,7 @@
 {
   "premium": [
     {
-      "image": "bit.png",
+      "image": "bit.webp",
       "link": "https://www.sonae.pt/pt/"
     }
   ],
@@ -13,7 +13,7 @@
   ],
   "partner": [
     {
-      "image": "dei.png",
+      "image": "dei.webp",
       "link": "https://dei.fe.up.pt"
     }
   ]
