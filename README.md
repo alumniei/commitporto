@@ -18,6 +18,14 @@ yarn deploy
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+## Guidlines
+
+### Adding images
+
+To minimize file sizes, it is better to convert the images to `.webp`:
+
+`$ cwebp <file> -o <new_file>.webp`
+
 ## Archive previous edition
 
 Older editions are archived in [alumniei/commitporto-previous](https://github.com/alumniei/commitporto-previous/). 
