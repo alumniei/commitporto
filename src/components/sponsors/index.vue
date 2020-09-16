@@ -1,7 +1,7 @@
 <template>
   <div id="sponsors" class="section">
     <Title title="Sponsors" subtitle="Thanks to our" />
-    <div class="sponsor diamond">
+    <div class="sponsor gold">
       <Sponsor
         v-for="sponsor in premium"
         v-bind="sponsor"
@@ -10,7 +10,7 @@
         :imagePath="sponsor.image"
       />
     </div>
-    <div class="sponsor gold">
+    <div class="sponsor silver">
       <Sponsor
         v-for="sponsor in basic"
         v-bind="sponsor"
