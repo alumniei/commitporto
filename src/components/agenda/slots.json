@@ -22,6 +22,17 @@
       "time": "TBA"
     },
     {
+      "file": "angel-rivera.webp",
+      "name": "Angel Rivera",
+      "role": "Developer Advocate @ CircleCI",
+      "bio": "Angel started his career as an US Air Force Space Systems Operations specialist in Cape Canaveral AF Station where he realized his passion for technology and software development. He has extensive experience in the private, public and military sectors and his technical experience includes military/space lift operations, technical writing, software development, SRE/DevOPs engineering. He also has a wealth of experience in defense and federal sectors such as contracting, information systems security and management.",
+      "github": "punkdata",
+      "twitter": "punkdata",
+      "title": "CI/CD Agility and Controlling Pipeline Sprawl",
+      "abstract": "<p>The adoption of CI/CD has automated the process of how DevOps teams build, test, and deliver software at rapid speeds and with high confidence. Although CI/CD platforms offer many benefits, in the attempt to make sophisticated pipelines, many teams run into the issue of “Pipeline Sprawl”. Pipeline sprawl makes it difficult for DevOps teams to identify and reuse common execution patterns which diminishes their ability to efficiently ship new code. <br><br> In this talk, Angel will discuss the common pain points associated with existing CI/CD platforms. The talk will pull in examples from his recent experience and conversations with DevOps teams from across the open source community, startups, and large enterprises. Attendees will learn technical strategies to develop pipeline configurations that diminish potentially costly vendor-lock in.</p>",
+      "time": "TBA"
+    },
+    {
       "type": "filled",
       "content": [
         {
