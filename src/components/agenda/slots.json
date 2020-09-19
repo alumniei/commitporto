@@ -33,6 +33,29 @@
       "time": "TBA"
     },
     {
+      "file": "daniel.webp",
+      "name": "Daniel Ferrari",
+      "role": "Lead ML Engineer @ Farfetch",
+      "bio": "Daniel Ferrari holds a Ph.D. in Data Mining and Machine Learning. Acting as a researcher, published a book and several articles in partnership with Computer Science and Biological labs. As a Software Engineer, he has contributed to the development of several applications for more than 15 years. Nowadays, he combines both experiences to act as a Machine Learning Engineer to develop pipelines from data extraction and manipulation to train and deploy models to production.",
+      "github": "FerrariDG",
+      "twitter": "FerrariDG77",
+      "linkedin": "ferraridg",
+      "title": " Asynchronous ML Inference with Celery and FastAPI",
+      "abstract": "<p>This talk will present an architecture based on Celery and FastAPI for machine learning asynchronous inferences using. It will show how to take advantage of Celery's distributed task queues to scale asynchronous requests for any model. The services' concepts will be detailed, and a live demo will demonstrate how the system works.</p>",
+      "time": "TBA"
+    },
+    {
+      "file": "rob.webp",
+      "name": "Rob Richardson",
+      "role": "Developer Evangelist @ MemSQL",
+      "bio": "Rob Richardson is a software craftsman building web properties in ASP.NET and Node, React and Vue. He’s a Microsoft MVP, published author, frequent speaker at conferences, user groups, and community events, and a diligent teacher and student of high quality software development. You can find this and other talks on https://robrich.org/presentations and follow him on twitter at @rob_rich.",
+      "github": "robrich",
+      "twitter": "rob_rich",
+      "title": "Databases in the Microservices World",
+      "abstract": "<p>Web technologies have come leaps and bounds. But are you still using the tired old database from last generation? Let's look at the methodology of microservices, compare it to bounded contexts, and look at ops tasks for micro-databases. Let's tour all the flavors of databases, understand their pros and cons, and when you would choose it. You'll leave with a roadmap for moving from data-monolith to micro-databases.</p>",
+      "time": "TBA"
+    },
+    {
       "type": "filled",
       "content": [
         {
