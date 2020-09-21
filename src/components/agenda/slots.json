@@ -35,7 +35,7 @@
     {
       "file": "daniel.webp",
       "name": "Daniel Ferrari",
-      "role": "Lead ML Engineer @ Farfetch",
+      "role": "Lead ML Engineer",
       "bio": "Daniel Ferrari holds a Ph.D. in Data Mining and Machine Learning. Acting as a researcher, published a book and several articles in partnership with Computer Science and Biological labs. As a Software Engineer, he has contributed to the development of several applications for more than 15 years. Nowadays, he combines both experiences to act as a Machine Learning Engineer to develop pipelines from data extraction and manipulation to train and deploy models to production.",
       "github": "FerrariDG",
       "twitter": "FerrariDG77",
@@ -66,5 +66,3 @@
     }
   ]
 }
-
-
