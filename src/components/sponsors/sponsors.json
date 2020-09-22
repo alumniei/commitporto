@@ -1,15 +1,15 @@
 {
   "premium": [
     {
-      "image": "bit.webp",
+      "image": "bit.png",
       "link": "https://www.sonae.pt/pt/"
     },
     {
-      "image": "darwin.webp",
+      "image": "darwin.jpg",
       "link": "https://darwininteractive.com/"
     },
     {
-      "image": "critical.webp",
+      "image": "critical.jpg",
       "link": "https://www.criticaltechworks.com/"
     },
     {
@@ -25,7 +25,7 @@
   ],
   "partner": [
     {
-      "image": "dei.webp",
+      "image": "dei.png",
       "link": "https://dei.fe.up.pt"
     }
   ]
