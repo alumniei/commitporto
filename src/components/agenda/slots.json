@@ -10,6 +10,18 @@
       ]
     },
     {
+      "file": "daniel.jpg",
+      "name": "Daniel Ferrari",
+      "role": "Lead ML Engineer",
+      "bio": "Daniel Ferrari holds a Ph.D. in Data Mining and Machine Learning. Acting as a researcher, published a book and several articles in partnership with Computer Science and Biological labs. As a Software Engineer, he has contributed to the development of several applications for more than 15 years. Nowadays, he combines both experiences to act as a Machine Learning Engineer to develop pipelines from data extraction and manipulation to train and deploy models to production.",
+      "github": "FerrariDG",
+      "twitter": "FerrariDG77",
+      "linkedin": "ferraridg",
+      "title": " Asynchronous ML Inference with Celery and FastAPI",
+      "abstract": "<p>This talk will present an architecture based on Celery and FastAPI for machine learning asynchronous inferences using. It will show how to take advantage of Celery's distributed task queues to scale asynchronous requests for any model. The services' concepts will be detailed, and a live demo will demonstrate how the system works.</p>",
+      "time": "TBA"
+    },
+    {
       "file": "kristina.jpg",
       "name": "Kirstina Simakova",
       "role": "Independent Consultant",
@@ -22,6 +34,29 @@
       "time": "TBA"
     },
     {
+      "file": "jaime.jpg",
+      "name": "Jaime Jorge",
+      "role": "CEO @ Codacy",
+      "bio": "CEO of Codacy, MsC in Software Engineering, Love programming languages, BJJ, Books..",
+      "github": "jaimefjorge",
+      "linkedin": "jaimejorge",
+      "twitter": "jaimefjorge",
+      "title": "The Evolution of Static Code Analysis (SCA)",
+      "abstract": "<p>According to recent studies, developers spend about 42% of their time maintaining and reviewing code, leading to significant inefficiencies in build time and shipment. Static code analysis has sought to reduce this problem over the last 20+ years and has been evolving to allow teams to automate and standardize quality across teams at scale. This talk takes a look at how SCA has evolved and where it is likely headed in the future.</p>",
+      "time": "TBA"
+    },{
+      "file": "elizabet.jpg",
+      "name": "Elizabet Oliveira",
+      "role": "Senior Product Designer @ Elastic",
+      "bio": "Elizabet is a designer who codes! She started her career as a web developer, and soon she realized that she prefers the more visual side of the web. She loves interaction design, front-end technology, animation, and she’s obsessed with making the web fun again! She is passionate about open-source. In April 2018, her project React Kawaii won the \"Fun Project of the Year\" award at React Amsterdam! Music was also a big part of her life. She was the first female solo Hip-Hop artist signing to a major label (Universal Music) in Portugal. Her songs reached the top of MTV Portugal's charts, but she soon realized that she was not meant to be an artist. She found out that she is much happier designing, coding, and speaking at conferences all around the world!",
+      "github": "miukimiu",
+      "twitter": "miuki_miu",
+      "linkedin": "elizabetoliveira",
+      "title": "Building a Markdown Editor from a Designer Perspective",
+      "abstract": "<p>Recently I've built a Markdown Editor for Elastic UI. An editor that is now being consumed in apps like Elastic Kibana. From gathering requirements, design research, agree on feature specs, and build it, it took many iterations and teamwork. In this talk, I'm going t show you how I build this editor from a designer who codes perspective. </p>",
+      "time": "TBA"
+    },
+    {
       "file": "angel-rivera.jpg",
       "name": "Angel Rivera",
       "role": "Developer Advocate @ CircleCI",
@@ -30,18 +65,6 @@
       "twitter": "punkdata",
       "title": "CI/CD Agility and Controlling Pipeline Sprawl",
       "abstract": "<p>The adoption of CI/CD has automated the process of how DevOps teams build, test, and deliver software at rapid speeds and with high confidence. Although CI/CD platforms offer many benefits, in the attempt to make sophisticated pipelines, many teams run into the issue of “Pipeline Sprawl”. Pipeline sprawl makes it difficult for DevOps teams to identify and reuse common execution patterns which diminishes their ability to efficiently ship new code. <br><br> In this talk, Angel will discuss the common pain points associated with existing CI/CD platforms. The talk will pull in examples from his recent experience and conversations with DevOps teams from across the open source community, startups, and large enterprises. Attendees will learn technical strategies to develop pipeline configurations that diminish potentially costly vendor-lock in.</p>",
-      "time": "TBA"
-    },
-    {
-      "file": "daniel.jpg",
-      "name": "Daniel Ferrari",
-      "role": "Lead ML Engineer",
-      "bio": "Daniel Ferrari holds a Ph.D. in Data Mining and Machine Learning. Acting as a researcher, published a book and several articles in partnership with Computer Science and Biological labs. As a Software Engineer, he has contributed to the development of several applications for more than 15 years. Nowadays, he combines both experiences to act as a Machine Learning Engineer to develop pipelines from data extraction and manipulation to train and deploy models to production.",
-      "github": "FerrariDG",
-      "twitter": "FerrariDG77",
-      "linkedin": "ferraridg",
-      "title": " Asynchronous ML Inference with Celery and FastAPI",
-      "abstract": "<p>This talk will present an architecture based on Celery and FastAPI for machine learning asynchronous inferences using. It will show how to take advantage of Celery's distributed task queues to scale asynchronous requests for any model. The services' concepts will be detailed, and a live demo will demonstrate how the system works.</p>",
       "time": "TBA"
     },
     {
