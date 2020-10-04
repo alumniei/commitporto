@@ -12,9 +12,9 @@
         <Button id="eventbrite-widget-modal-trigger-61719447529" text="Get your tickets now" />
         -->
         <div class="time">> October 10 </div>
+        <!-- <br>
         <br>
-        <br>
-        <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
+        <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" /> -->
       </div>
 
       <!-- <div class="cta-section">
