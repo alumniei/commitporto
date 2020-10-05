@@ -19,7 +19,7 @@
       "linkedin": "ferraridg",
       "title": " Asynchronous ML Inference with Celery and FastAPI",
       "abstract": "<p>This talk will present an architecture based on Celery and FastAPI for machine learning asynchronous inferences using. It will show how to take advantage of Celery's distributed task queues to scale asynchronous requests for any model. The services' concepts will be detailed, and a live demo will demonstrate how the system works.</p>",
-      "time": "TBA"
+      "time": "10:15"
     },
     {
       "file": "kristina.jpg",
@@ -31,7 +31,7 @@
       "twitter": "KristiSimakova",
       "title": "Mobile AR: overview and best practices",
       "abstract": "<p>The main goal of AR is to blur the lines between virtual and real. In the past few years, we have seen a lot of improvements in mobile AR and in particular ARCore SDK. This talk will guide you through the state of the technology for mobile AR, common mistakes and main challenges any developer will meet when working with AR on Android.</p>",
-      "time": "TBA"
+      "time": "10:45"
     },
     {
       "file": "jaime.jpg",
@@ -43,7 +43,7 @@
       "twitter": "jaimefjorge",
       "title": "The Evolution of Static Code Analysis (SCA)",
       "abstract": "<p>According to recent studies, developers spend about 42% of their time maintaining and reviewing code, leading to significant inefficiencies in build time and shipment. Static code analysis has sought to reduce this problem over the last 20+ years and has been evolving to allow teams to automate and standardize quality across teams at scale. This talk takes a look at how SCA has evolved and where it is likely headed in the future.</p>",
-      "time": "TBA"
+      "time": "11:15"
     },{
       "file": "elizabet.jpg",
       "name": "Elizabet Oliveira",
@@ -54,7 +54,7 @@
       "linkedin": "elizabetoliveira",
       "title": "Building a Markdown Editor from a Designer Perspective",
       "abstract": "<p>Recently I've built a Markdown Editor for Elastic UI. An editor that is now being consumed in apps like Elastic Kibana. From gathering requirements, design research, agree on feature specs, and build it, it took many iterations and teamwork. In this talk, I'm going t show you how I build this editor from a designer who codes perspective. </p>",
-      "time": "TBA"
+      "time": "14:30"
     },
     {
       "file": "angel-rivera.jpg",
@@ -65,7 +65,7 @@
       "twitter": "punkdata",
       "title": "CI/CD Agility and Controlling Pipeline Sprawl",
       "abstract": "<p>The adoption of CI/CD has automated the process of how DevOps teams build, test, and deliver software at rapid speeds and with high confidence. Although CI/CD platforms offer many benefits, in the attempt to make sophisticated pipelines, many teams run into the issue of “Pipeline Sprawl”. Pipeline sprawl makes it difficult for DevOps teams to identify and reuse common execution patterns which diminishes their ability to efficiently ship new code. <br><br> In this talk, Angel will discuss the common pain points associated with existing CI/CD platforms. The talk will pull in examples from his recent experience and conversations with DevOps teams from across the open source community, startups, and large enterprises. Attendees will learn technical strategies to develop pipeline configurations that diminish potentially costly vendor-lock in.</p>",
-      "time": "TBA"
+      "time": "15:00"
     },
     {
       "file": "rob.jpg",
@@ -76,7 +76,7 @@
       "twitter": "rob_rich",
       "title": "Databases in the Microservices World",
       "abstract": "<p>Web technologies have come leaps and bounds. But are you still using the tired old database from last generation? Let's look at the methodology of microservices, compare it to bounded contexts, and look at ops tasks for micro-databases. Let's tour all the flavors of databases, understand their pros and cons, and when you would choose it. You'll leave with a roadmap for moving from data-monolith to micro-databases.</p>",
-      "time": "TBA"
+      "time": "15:30"
     },
     {
       "type": "filled",
