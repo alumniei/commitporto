@@ -25,7 +25,7 @@
           </div>
 
           <div class="live-qa" style="cursor: pointer;" onclick="window.open('https://app.sli.do/event/olfdvx3y')">
-            <div class="live-qa-text">Ask your questions here</div>
+            <div class="live-qa-text">Q&A</div>
             <img src="@/assets/qrcode.svg" />
           </div>
 
