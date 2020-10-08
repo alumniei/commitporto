@@ -17,10 +17,25 @@
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" /> -->
       </div>
 
+      <div class="live-conference">
+
+          <div class="live-on" style="cursor: pointer;" onclick="window.open('https://youtu.be/Htff08riC-s')">
+            <div class="live-on-text">Live on</div>
+            <img src="@/assets/yt_icon_mono_dark.png" />
+          </div>
+
+          <div class="live-qa" style="cursor: pointer;" onclick="window.open('https://app.sli.do/event/olfdvx3y')">
+            <div class="live-qa-text">Ask your questions here</div>
+            <img src="@/assets/qrcode.svg" />
+          </div>
+
+      </div>
+
       <!-- <div class="cta-section">
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
          <Button text="Call for speakers" :onClick="openCallForSpeakersModal" />
-      </div> -->
+      </div>-->
+
     </div>
     <AboutUs />
     <div class="gallery">
@@ -156,6 +171,49 @@ export default {
   text-align: center;
   & > button:not(:last-child) {
     margin-right: 5%;
+  }
+}
+
+.live-conference {
+  position: absolute;
+  bottom: 150px;
+  width: 100%;
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+
+  & .live-on{
+    display: flex;
+    padding: 20px;
+    max-width: 200px;
+    justify-content: center;
+    direction: col;
+    flex-direction: column;
+
+    & img {
+      max-height: 70px;
+      max-width: none;
+    }
+  }
+
+  & .live-qa {
+    display: flex;
+    padding: 20px;
+    max-width: 200px;
+    margin-left: 150px;
+    justify-content: center;
+    direction: col;
+    flex-direction: column;
+
+    & img {
+      max-height: 100px;
+      max-width: none;
+    }
+  }
+
+  & div {
+    margin-bottom: 20px;
   }
 }
 
