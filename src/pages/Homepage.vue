@@ -208,7 +208,7 @@ export default {
 
     & img {
       max-height: 100px;
-      max-width: none;
+      width: 200px;
     }
   }
 
