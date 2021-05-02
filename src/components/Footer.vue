@@ -1,6 +1,7 @@
 <template>
   <footer>
     <div class="editions">
+      <a href="http://previous.commitporto.com/2020" target="_blank">2020</a>.
       <a href="http://previous.commitporto.com/2019" target="_blank">2019</a>.
       <a href="http://2018.commitporto.com" target="_blank">2018</a>.
       <a href="http://2017.commitporto.com" target="_blank">2017</a>.
@@ -43,14 +44,14 @@ footer {
   padding: var(--small-space);
   padding-left: 100px;
   padding-right: 100px;
-  background: var(--main-color);
+  background: var(--background-color);
   position: relative;
 
   @media (--bellow-desktop) {
     margin: 0;
     text-align: center;
     flex-direction: column-reverse;
-    background: var(--main-color);
+    background: var(--text-color);
   }
 }
 
@@ -64,18 +65,19 @@ footer {
   }
 
   & img {
-    filter: brightness(0) invert(1);
+    height: 15px;
+    filter: var(--svg-filter);
   }
 }
 
 .editions {
   @apply --small-font;
   margin-top: 5px;
-  color: var(--white);
+  color: var(--main-color);
 
   & a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--main-color);
 
     &:not(:first-child) {
       padding-left: 5px;
@@ -94,7 +96,7 @@ footer {
   transform: translate(-50%, -50%);
 
   &, & a {
-    color: var(--white);
+    color: var(--main-color);
     font-size: var(--text-font);
     text-decoration: none;
   }

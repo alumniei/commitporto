@@ -5,19 +5,19 @@
         <div class="bckg-img" />
       </div>
       <div class="logo-section">
-        <img class="logo" src="@/assets/logobranco.png"/>
+        <img class="logo" src="@/assets/logo.png"/>
         <!--<a class="location" href="https://goo.gl/maps/Bcr3WfwoUasc1vg2A" target="_blank">
           <img src="@/assets/location.svg" />FEUP
         </a>
         <Button id="eventbrite-widget-modal-trigger-61719447529" text="Get your tickets now" />
         -->
-        <div class="time">> October 10 </div>
+        <div class="time">Remote . Fall Season</div>
         <!-- <br>
         <br>
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" /> -->
       </div>
 
-      <div class="live-conference">
+      <!-- <div class="live-conference">
 
           <div class="live-on" style="cursor: pointer;" onclick="window.open('https://youtu.be/Htff08riC-s')">
             <div class="live-on-text">Live on</div>
@@ -29,15 +29,15 @@
             <img src="@/assets/qrcode.svg" />
           </div>
 
-      </div>
+      </div> -->
 
       <!-- <div class="cta-section">
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
          <Button text="Call for speakers" :onClick="openCallForSpeakersModal" />
-      </div>-->
+      </div> -->
 
     </div>
-    <AboutUs />
+    <!-- <AboutUs />
     <div class="gallery">
       <img src="@/assets/gallery/gallery_12.jpg" />
       <img src="@/assets/gallery/gallery_13.jpg" />
@@ -51,7 +51,7 @@
       <img src="@/assets/gallery/gallery_21.jpg" />
     </div>
     <Agenda :openSpeakerDetails="openSpeakerDetails" />
-    <Sponsors />
+    <Sponsors /> -->
   </div>
 </template>
 

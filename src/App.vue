@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <Navbar :scrolled="scrolled" />
+    <!-- <Navbar :scrolled="scrolled" /> -->
     <router-view @modalVisible="showModal" />
     <Footer />
-    <Modal v-show="isModalVisible" @close="closeModal">
+    <!-- <Modal v-show="isModalVisible" @close="closeModal">
       <component :is="modalComponent" slot="body" v-bind="modalProperties"></component>
-    </Modal>
+    </Modal> -->
   </div>
 </template>
 
