@@ -13,7 +13,7 @@
         participants.
       </small>
       <small>
-        If your company wants to be part of Commit Porto ’20, you can reach out to us via the form
+        If your company wants to be part of Commit Porto ’21, you can reach out to us via the form
         bellow. Find all we have to offer in our prospectus.
       </small>
       <form class="form" action="https://formspree.io/mrgpnyeg" method="POST">
