@@ -60,6 +60,15 @@ export default {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+input{
+  background-color: var(--text-color);
+  color: white;
+}
+
+button.secondary{
+  color: var(--text-color) !important;
+}
+
 .modal-content {
   position: fixed;
   top: 50%;
@@ -71,7 +80,8 @@ export default {
   max-width: 50%;
   min-height: 100px;
   max-height: 80%;
-  background: var(--white);
+  background: var(--text-color);
+  color: var(--white);
   padding: 50px;
   font-weight: var(--font-weight-light);
   border-radius: 5px;

@@ -46,7 +46,8 @@
     <h3 class="submit-proposal">
       <!-- <strong>Proposals submission will open soon. Stay tuned!</strong> -->
       <strong>Please submit your proposals
-         <a href="https://alumniei.typeform.com/to/J2AIGe" target="_blank">HERE</a>.
+         <a href="https://alumniei.typeform.com/to/C2suw2YO" target="_blank">HERE</a>
+         until August 16th, 2021.
       </strong>
     </h3>
     <small>Please note:
@@ -80,25 +81,8 @@
        and can't decide which one will fit better, you are more than welcome to submit both.
     </small>
     <br/>
-    <strong>When will the call for speakers close?</strong>
-    <small>
-      Because of COVID-19 we had to delay this years edition
-      (<strong>new date is 10th of October</strong>) and at the moment there isn't a set date
-      for us to stop accepting new proposals. We will eventually set a deadline, so be sure to
-      follow us in social media for any updates.
-    </small>
-    <br/>
-    <strong>
-      I have submitted a proposal before the new date had been announced, what will happen to
-      my submission?
-    </strong>
-    <small>
-      Due to the COVID-19 current situation, we postponed this year's edition to October 10th.
-      The call for speakers will stay open until further notice. Keep rocking and submitting!
-    </small>
-    <br/>
     <strong>Any other questions?</strong>
-    <small>Email us: hello at commitporto dot com</small>
+    <small>Email us: hello at commitporto [dot] com</small>
   </div>
 </template>
 

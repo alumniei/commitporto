@@ -4,7 +4,7 @@
     <div v-if="!submitted">
       <small>
         Commit Porto is a tech conference that brings together professionals who tackle challenges
-        in software development with the latest technologies. Now in its sixth edition the
+        in software development with the latest technologies. Now in its seventh edition the
         conference is only possible due to the generous support of our sponsors.
       </small>
       <small>
@@ -13,7 +13,7 @@
         participants.
       </small>
       <small>
-        If your company wants to be part of Commit Porto ’20, you can reach out to us via the form
+        If your company wants to be part of Commit Porto'21, you can reach out to us via the form
         bellow. Find all we have to offer in our prospectus.
       </small>
       <form class="form" action="https://formspree.io/mrgpnyeg" method="POST">

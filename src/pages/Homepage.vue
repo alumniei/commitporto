@@ -11,7 +11,7 @@
         </a>
         <Button id="eventbrite-widget-modal-trigger-61719447529" text="Get your tickets now" />
         -->
-        <div class="time">Remote . Fall Season</div>
+        <div class="time">Remote . October 16</div>
         <!-- <br>
         <br>
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" /> -->
@@ -31,10 +31,10 @@
 
       </div> -->
 
-      <!-- <div class="cta-section">
+      <div class="cta-section">
         <Button text="Call for sponsors" :onClick="openCallForSponsorsModal" />
          <Button text="Call for speakers" :onClick="openCallForSpeakersModal" />
-      </div> -->
+      </div>
 
     </div>
     <!-- <AboutUs />
@@ -59,7 +59,7 @@
 import Button from '@/components/common/Button';
 import AboutUs from '@/components/AboutUs';
 import CallForSponsor from '@/components/CallForSponsor';
-/* import CallForSpeaker from '@/components/CallForSpeaker'; */
+import CallForSpeaker from '@/components/CallForSpeaker';
 import Agenda from '@/components/agenda/';
 import Sponsors from '@/components/sponsors/';
 
@@ -78,9 +78,9 @@ export default {
     openCallForSponsorsModal() {
       this.$emit('modalVisible', CallForSponsor, {});
     },
-    /* openCallForSpeakersModal() {
+    openCallForSpeakersModal() {
       this.$emit('modalVisible', CallForSpeaker, {});
-    }, */
+    },
   },
 };
 </script>
@@ -109,6 +109,10 @@ export default {
     width: 0;
     height: 0;
   }
+}
+
+button{
+  background-color: var(--text-color) !important;
 }
 
 .logo-section {
